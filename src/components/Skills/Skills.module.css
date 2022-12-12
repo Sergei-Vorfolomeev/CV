@@ -1,0 +1,28 @@
+.skillsPage {
+    height: 100vh;
+    background-color: #feffc9;
+
+
+}
+
+.container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.title {
+    border: 1px solid;
+    text-align: center;
+}
+
+.skills {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    flex-wrap: wrap;
+}

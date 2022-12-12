@@ -1,0 +1,16 @@
+.skillContainer {
+    border: 1px solid;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 10px 30px;
+
+
+}
+
+.skillContainer img {
+    height: 100px;
+}

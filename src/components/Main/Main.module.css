@@ -1,0 +1,31 @@
+.mainPage {
+    background-color: rgba(255, 103, 189, 0.55);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.greeting {
+    width: 300px;
+    background-color: #d8e8ff;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: seashell;
+}
+
+.photo img {
+    height: 400px;
+}
