@@ -1,6 +1,6 @@
 .skillContainer {
     border: 1px solid;
-    width: 500px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

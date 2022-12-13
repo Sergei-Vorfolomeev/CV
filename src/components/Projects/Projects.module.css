@@ -1,0 +1,28 @@
+.projectPage {
+    height: 100vh;
+    background-color: #c9ffe4;
+}
+
+.container {
+    /*border: 1px solid;*/
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    border: 1px solid;
+    text-align: center;
+}
+
+.projects {
+    border: 1px solid;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
