@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Project.module.css'
 
 type ProjectPropsType = {
-    img: string
     title: string
     description: string
 }
@@ -10,10 +9,14 @@ type ProjectPropsType = {
 export const Project = (props: ProjectPropsType) => {
     return (
         <div className={styles.projectContainer}>
-            <img src={props.img} alt="logo"/>
-            <button>Watch</button>
-            <h3>{props.title}</h3>
-            <p>{props.description}</p>
+            <div className={styles.imgContainer}>
+                <a href="#" className={styles.btn}>Watch</a>
+            </div>
+            {/*<img src={props.img} alt="logo"/>*/}
+
+            {/*<button>Watch</button>*/}
+            <h3 className={styles.title}>{props.title}</h3>
+            <p className={styles.description}>{props.description}</p>
         </div>
     );
 };

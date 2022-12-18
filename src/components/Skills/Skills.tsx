@@ -7,10 +7,10 @@ export const Skills = () => {
     return (
         <div className={styles.skillsPage}>
             <div className={styles.container}>
-                <div className={styles.title}>
-                    <h2>My skills</h2>
+                <div className={styles.titleContainer}>
+                    <h2 className={styles.title}>My skills</h2>
                 </div>
-                <div className={styles.skills}>
+                <div className={styles.skillsContainer}>
                     <Skill img={logo}
                            title={'React'}
                            description={'JavaScript library for building user interfaces'}/>

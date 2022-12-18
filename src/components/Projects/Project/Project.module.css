@@ -5,6 +5,25 @@
     border: 1px solid;
     width: 400px;
 }
-.projectContainer img {
-    height: 255px;
+
+.imgContainer {
+    background-image: url("https://projectimg.com/hubfs/IMG%20-%20LOGO-TRANSPARENT-%20black%20font%20-%20Zoom-3.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 280px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 40px;
+    background-color: #c8c6c5;
+}
+.title {
+    background-color: #c8c6c5;
+}
+.description {
+    background-color: #c8c6c5;
 }

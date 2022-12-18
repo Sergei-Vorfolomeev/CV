@@ -1,5 +1,5 @@
 .skillsPage {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #feffc9;
 
 
@@ -14,12 +14,16 @@
     margin: 0 auto;
 }
 
-.title {
+.titleContainer {
     border: 1px solid;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    background-color: #c8c6c5;
 }
 
-.skills {
+.skillsContainer {
     border: 1px solid;
     display: flex;
     justify-content: space-around;

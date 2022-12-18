@@ -11,8 +11,8 @@ export const Skill = (props: SkillPropsType) => {
     return (
         <div className={styles.skillContainer}>
             <img src={props.img} alt="logo"/>
-            <h3>{props.title}</h3>
-            <span>{props.description}</span>
+            <h3 className={styles.title}>{props.title}</h3>
+            <p className={styles.description}>{props.description}</p>
         </div>
     );
 };
