@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Skills.module.css'
 import {Skill} from "./Skill/Skill";
-import logo from '../../img/logo192.png'
+import logo from '../../assets/img/logo192.png'
 
 export const Skills = () => {
     return (
